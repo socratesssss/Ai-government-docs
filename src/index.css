@@ -4,12 +4,14 @@
   --color-primary: #00D2FF;
   --color-secondary: #2D2D2D;
   --color-accent: #666666;
+  --color-primaryGrade: linear-gradient(90deg, #00D2FF 0%, #059DBE 100%);
   --font-primary: 'Nunito Sans', sans-serif;
   --font-secondary: 'Space Grotesk', sans-serif;
-  --color-primary-2:'bg-linear-[25deg,red_5%,yellow_60%,lime_90%,teal]'
+
 
   --color-primary-2: 'linear-gradient(90deg, #00D2FF 0%, #059DBE 100%)';
   --background-secondary: 'linear-gradient(161.45deg, #00D2FF -5.54%, #9AEDFF 59.11%)'
+  --drop-shadow-3xl: 0 35px 35px rgba(0, 0, 0, 0.25); 
   
 }
 :root {
@@ -17,4 +19,12 @@
   --background-secondary: linear-gradient(161.45deg, #00D2FF -5.54%, #9AEDFF 59.11%);
 } 
  
+.my-element {
+  border-top: 2px solid transparent; /* Set border thickness */
+  border-image-source: var(--background-primary);
+  border-image-slice: 1; /* Ensures the full gradient is used */
+}
+
+
+
 

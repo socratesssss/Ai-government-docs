@@ -30,19 +30,23 @@ function Nav() {
             ))}
           </div>
           <div className="flex justify-center items-center gap-2.5">
-            <button onClick={toggleMenu} className="lg:hidden block text-accent ">
+          <button onClick={toggleMenu} className="lg:hidden block text-accent ">
             <div className="space-y-1">
             <span className="block w-6 h-0.5 bg-black"></span>
               <span className="block w-6 h-0.5 bg-black"></span>
               <span className="block w-6 h-0.5 bg-black"></span>
             </div>
             </button>
+            
             <Button style={{ background: "var(--background-primary)" }}>
               Get Started Today
             </Button>
+            
+
 
           </div>
-
+          
+         
         </div>
         {IsMenuOpen && <MobileMenu toggleMenu={toggleMenu}/>}
       </Container>
