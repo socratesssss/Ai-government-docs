@@ -46,7 +46,43 @@ export const CardData = [
       'Ensure all your documents meet the latest regulatory standards.'
     ]
   },
+  
 ];
 
+
+
+export const reviews = [
+  {
+    name: "David",
+    image: "person3.png",
+    type: "Happy Client",
+    review: {
+      stars: 4,
+      title: "Highly Recommend!",
+      details: "The service was user-friendly and met all my expectations.",
+    },
+  },
+  {
+    name: "John Smith",
+    image: "person2.png",
+    type: "Happy Client",
+    review: {
+      stars: 5,
+      title: "It Was An Amazing Experience!",
+      details:
+        "The AI features saved us countless hours and ensured our compliance was spot on.",
+    },
+  },
+  {
+    name: "Ronald Richards",
+    image: "person1.png",
+    type: "Happy Client",
+    review: {
+      stars: 5,
+      title: "Outstanding Support!",
+      details: "The customer support team was quick to resolve my issues.",
+    },
+  },
+];
 
   

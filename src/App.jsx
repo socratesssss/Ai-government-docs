@@ -5,6 +5,7 @@ import Nav from './Component/Shared/Nav'
 import Fotter from './Component/Shared/Fotter'
 
 import Hero from './Component/Home/Hero'
+import Reviews from './Component/Home/Reviews'
 
 
 
@@ -17,6 +18,7 @@ function App() {
 <Nav/>
 <Hero/>
 <ProbSol/>
+<Reviews/>
 
 
 <Fotter/>
