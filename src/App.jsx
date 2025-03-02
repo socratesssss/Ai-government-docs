@@ -6,6 +6,9 @@ import Fotter from './Component/Shared/Fotter'
 
 import Hero from './Component/Home/Hero'
 import Reviews from './Component/Home/Reviews'
+import Brand from './Component/Home/Brand'
+import Faq from './Component/Home/Faq'
+import Note from './Component/Home/Note'
 
 
 
@@ -19,6 +22,9 @@ function App() {
 <Hero/>
 <ProbSol/>
 <Reviews/>
+<Brand/>
+<Faq/>
+<Note/>
 
 
 <Fotter/>

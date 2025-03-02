@@ -85,4 +85,22 @@ export const reviews = [
   },
 ];
 
+export const Brandimg =[
+  {img:'brand1.png'},
+  {img:'brand2.png'},
+  {img:'brand3.png'},
+  {img:'brand4.png'},
+  {img:'brand5.png'},
+  {img:'brand6.png'},
+  
+]
+
+export const faqData = [
+  { question: 'Is my data secure?', answer: 'We cover a wide range of documents, including contracts, NDAs, compliance reports, and more. ' },
+  { question: 'Can I cancel my subscription?', answer: 'What types of documents can Ai GoverningDocs generate?We cover a wide range of documents, including contracts, NDAs, compliance reports, and more.' },
+  { question: 'Do you offer team plans?', answer: 'We cover a wide range of documents, including contracts, NDAs, compliance reports  '}
+
+  
+]
+
   

@@ -10,12 +10,13 @@
 
 
   --color-primary-2: 'linear-gradient(90deg, #00D2FF 0%, #059DBE 100%)';
-  --background-secondary: 'linear-gradient(161.45deg, #00D2FF -5.54%, #9AEDFF 59.11%)'
+
   --drop-shadow-3xl: 0 35px 35px rgba(0, 0, 0, 0.25); 
   
 }
 :root {
   --background-primary: linear-gradient(90deg, #00D2FF 0%, #059DBE 100%);
+  --background-primary2: linear-gradient(180deg, #00D2FF 50%, #059DBE 100%);
   --background-secondary: linear-gradient(161.45deg, #00D2FF -5.54%, #9AEDFF 59.11%);
 } 
  
